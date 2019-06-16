@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F8610F9C777C958C40D9669 /* Pods_VisualDebugInSwift5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6A3C48648CCB7D6452E10B /* Pods_VisualDebugInSwift5.framework */; };
 		C9FC2DB022B6469F00D63683 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FC2DAF22B6469F00D63683 /* AppDelegate.swift */; };
 		C9FC2DB222B6469F00D63683 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FC2DB122B6469F00D63683 /* RootViewController.swift */; };
 		C9FC2DB422B646A000D63683 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FC2DB322B646A000D63683 /* Assets.xcassets */; };
@@ -14,12 +15,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84ED9C7B392D5CA485E17D4C /* Pods-VisualDebugInSwift5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisualDebugInSwift5.release.xcconfig"; path = "Target Support Files/Pods-VisualDebugInSwift5/Pods-VisualDebugInSwift5.release.xcconfig"; sourceTree = "<group>"; };
 		C9FC2DAC22B6469F00D63683 /* VisualDebugInSwift5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualDebugInSwift5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FC2DAF22B6469F00D63683 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9FC2DB122B6469F00D63683 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		C9FC2DB322B646A000D63683 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9FC2DB622B646A000D63683 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9FC2DB822B646A000D63683 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1158D6E8EC750A5EC3EA75 /* Pods-VisualDebugInSwift5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisualDebugInSwift5.debug.xcconfig"; path = "Target Support Files/Pods-VisualDebugInSwift5/Pods-VisualDebugInSwift5.debug.xcconfig"; sourceTree = "<group>"; };
+		FF6A3C48648CCB7D6452E10B /* Pods_VisualDebugInSwift5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VisualDebugInSwift5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8610F9C777C958C40D9669 /* Pods_VisualDebugInSwift5.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +43,8 @@
 			children = (
 				C9FC2DAE22B6469F00D63683 /* VisualDebugInSwift5 */,
 				C9FC2DAD22B6469F00D63683 /* Products */,
+				D32D891DED0EDFFA4F7BA34E /* Pods */,
+				EE4B574C02945E648789FAFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +68,24 @@
 			path = VisualDebugInSwift5;
 			sourceTree = "<group>";
 		};
+		D32D891DED0EDFFA4F7BA34E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF1158D6E8EC750A5EC3EA75 /* Pods-VisualDebugInSwift5.debug.xcconfig */,
+				84ED9C7B392D5CA485E17D4C /* Pods-VisualDebugInSwift5.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE4B574C02945E648789FAFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF6A3C48648CCB7D6452E10B /* Pods_VisualDebugInSwift5.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -68,9 +93,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9FC2DBB22B646A000D63683 /* Build configuration list for PBXNativeTarget "VisualDebugInSwift5" */;
 			buildPhases = (
+				45BAD56B2BE60C2B9294BD0D /* [CP] Check Pods Manifest.lock */,
 				C9FC2DA822B6469F00D63683 /* Sources */,
 				C9FC2DA922B6469F00D63683 /* Frameworks */,
 				C9FC2DAA22B6469F00D63683 /* Resources */,
+				FB69D6031DE102459B110C75 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +152,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45BAD56B2BE60C2B9294BD0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VisualDebugInSwift5-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB69D6031DE102459B110C75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisualDebugInSwift5/Pods-VisualDebugInSwift5-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VisualDebugInSwift5/Pods-VisualDebugInSwift5-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VisualDebugInSwift5/Pods-VisualDebugInSwift5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C9FC2DA822B6469F00D63683 /* Sources */ = {
@@ -268,6 +337,7 @@
 		};
 		C9FC2DBC22B646A000D63683 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF1158D6E8EC750A5EC3EA75 /* Pods-VisualDebugInSwift5.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +356,7 @@
 		};
 		C9FC2DBD22B646A000D63683 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84ED9C7B392D5CA485E17D4C /* Pods-VisualDebugInSwift5.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
